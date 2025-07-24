@@ -1,21 +1,21 @@
-# Room Cleanliness Inspection System
+# Automated Hotel Room Inspection Report Generation
 
 This repository contains a deep learning model for classifying room images as "Clean" or "Messy" and a Flask web application to demonstrate its functionality. The system can generate PDF inspection reports based on the predictions.
 
 ## Table of Contents
 
-  * [Features]
-  * [Project Structure]
-  * [Setup and Installation]
-      * [Prerequisites]
-      * [Installation]
-  * [Usage]
-      * [Training the Model]
-      * [Running the Web Application]
-  * [Model Details]
-  * [Report Generation]
-  * [Contributing]
-  * [License]
+  * Features
+  * Project Structure
+  * Setup and Installation
+      * Prerequisites
+      * Installation
+  * Usage
+      * Training the Model
+      * Running the Web Application
+  * Model Details
+  * Report Generation
+  * Contributing
+  * License
 
 ## Features
 
@@ -26,7 +26,7 @@ This repository contains a deep learning model for classifying room images as "C
 ## Project Structure
 
 ```
-.
+
 ├── main.py                 # Script for training the deep learning model and initial report generation
 ├── app.py                  # Flask web application for image prediction and report generation
 ├── requirements.txt        # Python dependencies
@@ -61,8 +61,8 @@ This repository contains a deep learning model for classifying room images as "C
 1.  **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/your-repository-name.git
-    cd your-repository-name
+    git clone https://github.com/patilsharvari184/Automated-Hotel-Room-Inspection-Report-Generation.git
+    cd Automated-Hotel-Room-Inspection-Report-Generation
     ```
 
 2.  **Create a virtual environment (recommended):**
@@ -98,7 +98,7 @@ This repository contains a deep learning model for classifying room images as "C
 
 The `main.py` script handles the training of the VGG16-based model. It will save the trained model as `my_model22.h5`.
 
-1.  **Ensure your dataset is correctly placed** as described in the [Dataset](https://www.google.com/search?q=%23dataset) section.
+1.  **Ensure your dataset is correctly placed** as described in the Dataset section.
 
 2.  **Run the training script:**
 
@@ -106,13 +106,13 @@ The `main.py` script handles the training of the VGG16-based model. It will save
     python main.py
     ```
 
-    This will start the training process, display accuracy and loss plots, and save the model as `my_model22.h5`. You might want to rename this to `model1.h5` or update `app.py` to load `my_model22.h5`.
+    This will start the training process, display accuracy and loss plots, and save the model as `model1.h5`. You might want to rename this to `model.h5` or update `app.py` to load `model.h5`.
 
 ### Running the Web Application
 
 The `app.py` script runs the Flask web application.
 
-1.  **Ensure you have a trained model file** (`model1.h5` or `my_model22.h5` renamed to `model1.h5`) in the root directory.
+1.  **Ensure you have a trained model file** in the root directory.
 
 2.  **Run the Flask application:**
 
