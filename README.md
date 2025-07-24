@@ -39,7 +39,7 @@ This repository contains a deep learning model for classifying room images as "C
 └── templates/
     ├── index.html          # HTML template for the main upload page
     └── result.html         # HTML template for displaying prediction results and report download link
-└── hotel_dataset/          # Dataset directory (assumed structure)
+└── hotel_dataset/          # Dataset directory
     ├── Dataset/
         ├── train/
             ├── clean/
