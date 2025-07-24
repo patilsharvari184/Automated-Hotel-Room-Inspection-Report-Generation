@@ -1,5 +1,3 @@
-# Automated-Inspection-Report-Generation-Hotel-Rooms-
-
 # Room Cleanliness Inspection System
 
 This repository contains a deep learning model for classifying room images as "Clean" or "Messy" and a Flask web application to demonstrate its functionality. The system can generate PDF inspection reports based on the predictions.
