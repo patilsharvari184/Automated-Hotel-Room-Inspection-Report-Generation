@@ -1,0 +1,13 @@
+flask
+requests
+numpy
+pandas
+matplotlib
+seaborn
+tensorflow
+keras
+opencv-python
+ipython
+reportlab
+Pillow
+# Add other dependencies as needed
