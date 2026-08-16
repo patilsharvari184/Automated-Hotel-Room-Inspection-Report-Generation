@@ -746,7 +746,7 @@ Install:
 # 1️⃣ Clone the Repository
 
 ```bash
-git clone <YOUR_REPOSITORY_URL>
+git clone <https://github.com/patilsharvari184/Automated-Hotel-Room-Inspection-Report-Generation>
 cd "Automated Inspection Report"
 ```
 
